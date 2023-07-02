@@ -1,0 +1,192 @@
+#back:hover {
+    transform: translateX(5px); 
+    transition: all 0.3s; 
+}
+
+#next:hover {
+    transform: translateX(-5px); 
+    transition: all 0.3s; 
+}
+
+.logosurat:hover{
+    transform: translateY(5px); 
+    transition: all 0.10s; 
+}
+  
+.navhome {
+    position: absolute;
+    margin: 135px 50px 50px;
+    display: inline-flex;
+    transition: fill 0.5s;
+}
+  
+#home a {
+    position: absolute;
+    margin: 148px 100px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 21px;
+    color: #FFFFFF;
+    transition: color 0.5s;
+}
+  
+#home a:hover {
+    font-weight: bolder;
+}
+  
+.navsearch {
+    position: absolute;
+    margin: 240px 50px 50px;
+}
+  
+#search a {
+    position: absolute;
+    margin: 250px 100px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-size: 21px;
+    color: #FFFFFF;
+}
+  
+.navsuratmasuk {
+    position: absolute;
+    margin: 348px 50px 50px;
+}
+  
+#smasuk a {
+    position: absolute;
+    margin: 360px 100px;
+    font-family: 'Roboto Slab';
+    font-size: 21px;
+    color: #FFFFFF;
+}
+  
+.navsuratkeluar {
+    position: absolute;
+    margin: 458px 50px 50px;
+}
+  
+#skeluar a {
+    position: absolute;
+    margin: 467px 100px;
+    font-family:'Roboto Slab';
+    font-size: 21px;
+    color: #FFFFFF; 
+}
+  
+.navnotaintern {
+    position: absolute;
+    margin: 568px 50px 50px;
+}
+  
+#notaintern a {
+    position: absolute;
+    margin: 573px 100px;
+    font-family:'Roboto Slab';
+    font-size: 21px;
+    color: #FFFFFF; 
+}
+  
+#nav a{
+    display: flex;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #FFFFFF; 
+    width: 200px;
+    height: 36px;
+    left: 101px;
+  
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-size: 22px;
+}
+  
+#nav a:hover {
+    font-weight: bolder;
+}
+  
+.icon:hover {
+    transform: translateX(5px); 
+    transition: all 0.5s; 
+}
+.form button {
+    border: none;
+    background: none;
+    color: #8b8ba7;
+  }
+  /* styling of whole input container */
+  .form {
+    --timing: 0.3s;
+    --width-of-input: 250px;
+    --height-of-input: 47px;
+    --border-height: 2px;
+    --input-bg: #fff;
+    --border-color: #2f2ee9;
+    --border-radius: 30px;
+    --after-border-radius: 1px;
+    position: relative;
+    width: var(--width-of-input);
+    height: var(--height-of-input);
+    display: flex;
+    align-items: center;
+    padding-inline: 0.8em;
+    border-radius: var(--border-radius);
+    transition: border-radius 0.5s ease;
+    background: var(--input-bg,#fff);
+  }
+  /* styling of Input */
+  .input {
+    font-size: 0.9rem;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    padding-inline: 0.5em;
+    padding-block: 0.7em;
+    border: none;
+  }
+  /* styling of animated border */
+  .form:before {
+    content: "";
+    position: absolute;
+    background: var(--border-color);
+    transform: scaleX(0);
+    transform-origin: center;
+    width: 100%;
+    height: var(--border-height);
+    left: 0;
+    bottom: 0;
+    border-radius: 1px;
+    transition: transform var(--timing) ease;
+  }
+  /* Hover on Input */
+  .form:focus-within {
+    border-radius: var(--after-border-radius);
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  /* here is code of animated border */
+  .form:focus-within:before {
+    transform: scale(1);
+  }
+  /* styling of close button */
+  /* == you can click the close button to remove text == */
+  .reset {
+    border: none;
+    background: none;
+    opacity: 0;
+    visibility: hidden;
+  }
+  /* close button shown when typing */
+  input:not(:placeholder-shown) ~ .reset {
+    opacity: 1;
+    visibility: visible;
+  }
+  /* sizing svg icons */
+  .form svg {
+    width: 17px;
+    margin-top: 3px;
+  }

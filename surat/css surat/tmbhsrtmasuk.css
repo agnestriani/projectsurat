@@ -1,0 +1,197 @@
+#back:hover {
+    transform: translateX(5px); 
+    transition: all 0.3s; 
+}
+
+#next:hover {
+    transform: translateX(-5px); 
+    transition: all 0.3s; 
+}
+
+.logosurat:hover{
+    transform: translateY(5px); 
+    transition: all 0.10s; 
+}
+  
+.navhome {
+    position: absolute;
+    margin: 135px 50px 50px;
+    display: inline-flex;
+    transition: fill 0.5s;
+}
+  
+#home a {
+    position: absolute;
+    margin: 148px 100px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 21px;
+    color: #FFFFFF;
+    transition: color 0.5s;
+}
+  
+#home a:hover {
+    font-weight: bolder;
+}
+  
+.navsearch {
+    position: absolute;
+    margin: 240px 50px 50px;
+}
+  
+#search a {
+    position: absolute;
+    margin: 250px 100px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-size: 21px;
+    color: #FFFFFF;
+}
+  
+.navsuratmasuk {
+    position: absolute;
+    margin: 348px 50px 50px;
+}
+  
+#smasuk a {
+    position: absolute;
+    margin: 360px 100px;
+    font-family: 'Roboto Slab';
+    font-size: 21px;
+    color: #FFFFFF;
+}
+  
+.navsuratkeluar {
+    position: absolute;
+    margin: 458px 50px 50px;
+}
+  
+#skeluar a {
+    position: absolute;
+    margin: 467px 100px;
+    font-family:'Roboto Slab';
+    font-size: 21px;
+    color: #FFFFFF; 
+}
+  
+.navnotaintern {
+    position: absolute;
+    margin: 568px 50px 50px;
+}
+  
+#notaintern a {
+    position: absolute;
+    margin: 573px 100px;
+    font-family:'Roboto Slab';
+    font-size: 21px;
+    color: #FFFFFF; 
+}
+  
+#nav a{
+    display: flex;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #FFFFFF; 
+    width: 200px;
+    height: 36px;
+    left: 101px;
+  
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-size: 22px;
+}
+  
+#nav a:hover {
+    font-weight: bolder;
+}
+  
+.icon:hover {
+    transform: translateX(5px); 
+    transition: all 0.5s; 
+}
+
+h3{
+    position: absolute;
+    width: 238px;
+    height: 39px;
+    left: 453px;
+    top: 120px;
+
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 50px;
+
+    color: #005E6A;
+}
+
+.content {
+    position: absolute;
+    top: 13%;
+    left:48%;
+}
+
+.card {
+    width: 350px;
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 10px;
+  }
+  
+  .card-header {
+    padding: 16px;
+    text-align: center;
+  }
+  
+  .card-header .text-header {
+    margin: 0;
+    font-size: 18px;
+    color: black
+  }
+  
+  .card-body {
+    padding: 16px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 1px;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .btn1 {
+    padding: 12px 24px;
+    margin-left: 13px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+    text-transform: uppercase;
+    transition: background-color 0.2s ease-in-out;
+    cursor: pointer
+  }
+  
+  .btn1:hover {
+    background-color: #ccc;
+    color: #333;
+  }
